@@ -249,7 +249,7 @@ a:hover {
   /* position: relative;
   top: 50pt;
   left: 10pt; */
-  margin: 0px auto;
+  margin: 70px auto;
 }
 #head .title a {
   text-decoration: none;
@@ -258,8 +258,7 @@ a:hover {
 #head .tagline {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   display: block;
-  font-size: 30px;
-  font-size: 0.875rem;
+  font-size: 50px;
   line-height: 1.2em;
   color: #e3e3e3;
   /* position: relative;
@@ -281,8 +280,7 @@ a:hover {
   font-size: 3.0625rem;
 }
 .home #head .tagline {
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 17px;
   margin: 15px 10 10;
 }
 /*********************************************************************
