@@ -32,7 +32,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  opacity: .85;
+  opacity: 0.85;
 }
 .navbar-collapse {
   -webkit-border-radius: 0;
@@ -225,41 +225,53 @@ a:hover {
 
 **********************************************************************/
 #head {
-  background: #f4f4f4 url(../images/bg_head.jpg) top center;
-  background-size: cover;
-  color: #7C7C7C;
+  background: #f4f4f4 url(../images/star.png) top center;
+  background-attachment: fixed;
+  background-size: contain;
+  background-repeat: no-repeat;
+  color: #ffffff;
   padding: 30px 0 35px 0;
+  height: 700px;
 }
 #head img.img-circle {
   display: block;
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   overflow: hidden;
-  border: 9px solid rgba(0, 0, 0, 0.05);
-  margin: 0 auto;
+  border: 10px solid rgba(0, 0, 0, 0.05);
+  margin: 70px auto;
 }
 #head .title {
-  font-family: Alice, Georgia, serif;
-  font-size: 49px;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-size: 45px;
   font-size: 3.0625rem;
+  color: #e3e3e3; /* this will make the text white */
+  /* position: relative;
+  top: 50pt;
+  left: 10pt; */
+  margin: 0px auto;
 }
 #head .title a {
   text-decoration: none;
-  color: #333333;
+  color: #e3e3e3;
 }
 #head .tagline {
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
   display: block;
-  font-size: 14px;
+  font-size: 30px;
   font-size: 0.875rem;
   line-height: 1.2em;
-  color: #7C7C7C;
-  margin: 5px 10 10;
+  color: #e3e3e3;
+  /* position: relative;
+  top: 62pt;
+  left: 10pt; */
+  margin: 30px auto;
 }
 #head .tagline b {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #5E5E5E;
+  color: #5e5e5e;
 }
 .home #head {
   padding: 90px 10;
@@ -322,7 +334,7 @@ img {
 }
 .btn-action {
   font-weight: bold;
-  background: transparent!important;
+  background: transparent !important;
   border: 1px solid #333;
   text-shadow: none;
 }
@@ -525,7 +537,7 @@ img {
   content: "";
   position: absolute;
   height: 4px;
-  top: .53em;
+  top: 0.53em;
   width: 400%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
