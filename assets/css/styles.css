@@ -199,8 +199,7 @@ a:hover {
 }
 .lead {
   font-weight: 300;
-  font-size: 21px;
-  font-size: 1.3125rem;
+  font-size: 19px;
 }
 .text-msg {
   line-height: 1.7em;
@@ -253,6 +252,10 @@ a:hover {
 }
 #head .title a {
   text-decoration: none;
+  color: #e3e3e3;
+}
+#head .title-icon a i {
+  font-size: 30px;
   color: #e3e3e3;
 }
 #head .tagline {
@@ -416,13 +419,13 @@ img {
   display: block;
   width: 100%;
   overflow: hidden;
-  height: 180px;
+  height: 200px;
   margin: 0 0 20px;
   position: relative;
 }
 .thumbnail .title {
   text-transform: uppercase;
-  margin: 0 2em;
+  margin: 0;
   display: block;
   text-indent: 0;
 }
@@ -464,6 +467,7 @@ img {
   color: white;
 }
 .thumbnail img {
+  display: block;
   width: 100%;
   position: absolute;
   top: 0;
@@ -473,9 +477,11 @@ img {
   color: #333;
   text-decoration: none;
 }
-.thumbnail:hover img {
-  -webkit-filter: saturate(0%);
-}
+/* .thumbnail:hover img {
+  -webkit-filter: saturate(100%) hue-rotate(300deg);
+  filter: saturate(100%) hue-rotate(300deg);
+} */
+
 .thumbnail:hover .cover {
   opacity: 1;
 }
@@ -498,6 +504,27 @@ img {
 .pagination > li.active > a:hover {
   color: #000000;
   background: none;
+}
+
+.thumbnails.recentworks.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+.thumbnail .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(255, 162, 133, 0.2); /* semi-transparent pink */
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+.thumbnail:hover .overlay {
+  opacity: 1;
 }
 /*********************************************************************
 
@@ -536,7 +563,7 @@ img {
   position: absolute;
   height: 4px;
   top: 0.53em;
-  width: 400%;
+  width: 50%;
   border-bottom: 1px solid #ccc;
   border-top: 1px solid #ccc;
 }
@@ -774,6 +801,11 @@ footer.entry-meta .meta-in {
   font-size: 15px;
   font-size: 0.9375rem;
   text-transform: uppercase;
+  color: #ccc;
+  margin: 0 0 20px;
+}
+#footer .widget-body {
+  font-size: 13px;
   color: #ccc;
   margin: 0 0 20px;
 }
