@@ -233,8 +233,7 @@ a:hover {
   background-repeat: no-repeat;
   color: #ffffff;
   padding: 30px 0 35px 0;
-  height: 0;
-  padding-bottom: 46%;
+  height: 48vw;
 }
 #head img.img-circle {
   display: block;
@@ -242,10 +241,9 @@ a:hover {
   height: 200px;
   overflow: hidden;
   border: 10px solid rgba(0, 0, 0, 0.05);
-  margin: 70px auto;
+  margin: 4vw auto;
 }
 #head .title {
-  display: inline-block;
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   font-size: 3.0625rem;
   color: #e3e3e3; /* this will make the text white */
@@ -826,8 +824,82 @@ footer.entry-meta .meta-in {
 }
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
-@media (min-width: 1200px) {
-  .container {
-    max-width: 1200px;
+@media (max-width: 1300px) {
+  #head .title-icon {
+    display: none;
   }
 }
+@media (max-width: 1200px) {
+  #head img.img-circle {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 7px solid rgba(0, 0, 0, 0.05);
+    margin: 4vw auto;
+  }
+  #head .title {
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-size: 2.6rem;
+  color: #e3e3e3; /* this will make the text white */
+  /* position: relative;
+  top: 50pt;
+  left: 10pt; */
+  margin: 8px auto;
+  }
+  #head .tagline {
+    font-family: "Open sans", Helvetica, Arial, sans-serif;
+    display: block;
+    font-size: 15px;
+    line-height: 1.2em;
+    color: #e3e3e3;
+    /* position: relative;
+    top: 62pt;
+    left: 10pt; */
+    margin: 1.8vw auto;
+  }
+}
+
+@media (max-width: 900px) {
+  #head .tagline {
+    display: none;
+  }
+  #head .title {
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-size: 2.2rem;
+  color: #e3e3e3; /* this will make the text white */
+  /* position: relative;
+  top: 50pt;
+  left: 10pt; */
+  margin: 8px auto;
+  }
+  #head img.img-circle {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border: 7px solid rgba(0, 0, 0, 0.05);
+    margin: 2.5vw auto;
+  }
+}
+
+@media (max-width: 600px) {
+  #head img.img-circle {
+    display: none;
+  }
+  #head .title {
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-size: 2.2rem;
+  color: #e3e3e3; /* this will make the text white */
+  /* position: relative;
+  top: 50pt;
+  left: 10pt; */
+  margin: 20px auto;
+  }
+
+}
+
+
+
+
+
+
+
