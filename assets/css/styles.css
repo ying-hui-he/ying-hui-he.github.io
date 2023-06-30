@@ -464,10 +464,15 @@ img {
   top: 0;
   left: 0;
 }
-.thumbnail:hover {
+.thumbnail:hover{
   color: #333;
   text-decoration: none;
 }
+.thumbnail:hover .title {
+  color: #bd1550;
+  text-decoration: none;
+}
+
 /* .thumbnail:hover img {
   -webkit-filter: saturate(100%) hue-rotate(300deg);
   filter: saturate(100%) hue-rotate(300deg);
