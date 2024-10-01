@@ -4,12 +4,12 @@ collection: publications
 category: conferences
 permalink: /publication/hi-tom
 citation: "<b>Yinghui He</b>, Yufan Wu, Yilin Jia, Rada Mihalcea, Yulong Chen, and Naihao Deng" # I've changed it to author
+# teaser: "hi-tom.jpg"
 excerpt: "“They don’t know that we know they know we know” 🤯 — Does GPT-4 have Higher-Order Theory of Mind?  Introducing 👋 Hi-ToM: a benchmark pushing LLMs to their limits in higher-order ToM (3rd order & beyond). LLMs’ performance declines drastically to near 0 📉 on 3rd and 4th!"
 date: 2023-10-25
 venue: "Findings of the 2023 Conference on Empirical Methods in Natural Language Processing"
 # slidesurl: "https://lit.eecs.umich.edu/Hi-ToM/"
 paperurl: "https://arxiv.org/abs/2310.16755"
-
 ---
 
 <figure>
