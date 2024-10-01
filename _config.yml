@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Yinghui He"
+title: "Yinghui He's Personal Page"
 title_separator: "-"
 name: &name "Yinghui He"
 description: &description "First-year PhD student at Princeton Computer Science"
@@ -22,7 +22,7 @@ repository: "ying-hui-he.github.io"
 author:
   # Biographic information
   avatar: "professional.png"
-  name: "Yinghui He"
+  name: "Yinghui He 何映晖"
   pronouns: # example: "she/her"
   bio: "First-year PhD student at Princeton Computer Science"
   location: "Princeton, NJ"
@@ -78,9 +78,9 @@ publication_category:
   books:
     title: "Books"
   manuscripts:
-    title: "Journal Articles"
+    title: "Arxiv Preprint"
   conferences:
-    title: "Conference Papers"
+    title: "Conference/Workshop Papers"
 
 # Site Settings
 teaser: # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
