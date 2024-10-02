@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+# title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,56 +9,54 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+# Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- Ph.D in Computer Science, Princeton University, Present
+- B.S.E in Computer Science, University of Michigan, 2024
+- B.E. in Electrical and Computer Engineering, Shanghai Jiao Tong University, 2024
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+# Research / Internship
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+- [Princeton Language and Intelligence](https://pli.princeton.edu/) (advised by Sanjeev Arora), Present
+- [Stanford Artificial Intelligence Laboratory](https://ai.stanford.edu/) (advised by Diyi Yang), 2023
+- [Language and Information Technologies](https://lit.eecs.umich.edu/) (advised by Rada Mihalcea), 2023
+- [Real-Time Computing Laboratory](https://rtcl.eecs.umich.edu/rtclweb/) (advised by Kang G. Shin), 2023
+- VMware Shanghai (Research Intern), 2022
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
+
 Teaching
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- **Intro to Computer Science Theory**, Winter 2024  
+  *University of Michigan, EECS Department*
+
+- **Physics I**, Summer 2022  
+  *Shanghai Jiao Tong University, UM-SJTU Joint Institute*
+
+- **Chemistry I**, Fall 2021  
+  *Shanghai Jiao Tong University, UM-SJTU Joint Institute*
+
+- **Writing Consultant**, 2021-2022  
+  *Shanghai Jiao Tong University, UM-SJTU Joint Institute*
+
   
-Service and leadership
+Scholarship
 ======
-* Currently signed in to 43 different slack teams
+- ***The Jackson and Muriel Lum Scholarship***, University of Michigan, 2022
+- ***Fan Xuji Scholarship***, Shanghai Jiao Tong University, 2022
+- ***National Scholarship of China***, Ministry of Education of the People’s Republic of China, 2021
+- ***SJTU Undergraduate Excellence Scholarship***, Shanghai Jiao Tong University, 2021
+- ***John Wu and Jane Sun Excellence Scholarship***, UM-SJTU Joint Institute, 2021
+
+
+Honor & Awards
+======
+- ***Dean’s List***, University of Michigan, 2023, 2024
+
+- ***Finalist Award (Top 2%)***, Mathematical Contest in Modelling, 2022
+
+- ***Bronze Medal***, University Physics Competition, 2021
+
+- ***First Place***, Media University-Enterprise Global Innovation Competition, 2021
+
+- ***Outstanding Participant***, United Nations Global Youth Leadership Academy Summer Learning Program, 2021
+
