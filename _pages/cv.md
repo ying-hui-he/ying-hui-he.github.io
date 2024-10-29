@@ -29,13 +29,13 @@ redirect_from:
   _University of Michigan, EECS Department_
 
 - **Physics I**, Summer 2022  
-  _Shanghai Jiao Tong University, UM-SJTU Joint Institute_
+  _Shanghai Jiao Tong University_
 
 - **Chemistry I**, Fall 2021  
-  _Shanghai Jiao Tong University, UM-SJTU Joint Institute_
+  _Shanghai Jiao Tong University_
 
 - **Academic Writing Consultant**, 2021-2022  
-  _Shanghai Jiao Tong University, UM-SJTU Joint Institute_
+  _Shanghai Jiao Tong University_
 
 # Scholarship
 
@@ -43,7 +43,7 @@ redirect_from:
 - **_Fan Xuji Scholarship_**, Shanghai Jiao Tong University, 2022
 - **_National Scholarship of China_**, Ministry of Education of the People’s Republic of China, 2021
 - **_SJTU Undergraduate Excellence Scholarship_**, Shanghai Jiao Tong University, 2021
-- **_John Wu and Jane Sun Excellence Scholarship_**, UM-SJTU Joint Institute, 2021
+- **_John Wu and Jane Sun Excellence Scholarship_**, Shanghai Jiao Tong University, 2021
 
 # Honor & Awards
 
