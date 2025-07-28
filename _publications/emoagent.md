@@ -3,7 +3,7 @@ title: "EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Hea
 collection: publications
 category: conferences
 permalink: /publication/emoagent
-citation: "Jiahao Qiu*, <b>Yinghui He*</b>, Xinzhe Juan*, Yiming Wang, Yuhan Liu, Zixin Yao, Yue Wu, Xun Jiang, Ling Yang, Mengdi Wang"
+citation: "<u>Jiahao Qiu*, <b>Yinghui He*</b>, Xinzhe Juan*</u>, Yiming Wang, Yuhan Liu, Zixin Yao, Yue Wu, Xun Jiang, Ling Yang, Mengdi Wang"
 excerpt: "Can AI Be Blamed for a Teen’s Suicide? Do AI Chatbots encourage suicide?
 🧒📱What if your teen’s favorite AI character crossed the line?
 💔 A 14-year-old boy in Florida took his own life after forming a deep bond with an AI character on http://Character.AI.

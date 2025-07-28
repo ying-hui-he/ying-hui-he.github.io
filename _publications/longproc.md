@@ -9,7 +9,7 @@ citation: "Xi Ye, Fangcong Yin*, <b>Yinghui He*</b>, Joie Zhang*, Howard Yen*, T
 excerpt: "“🤔Now most LLMs have >= 128K context sizes, but are they good at generating long outputs, such as writing 8K token chain-of-thought for a planning problem？ 
 🔔Introducing LongProc (Long Procedural Generation), a new benchmark with 6 diverse tasks that challenge LLMs to synthesize highly dispersed information and generate long, structured outputs."
 date: 2025-01-09
-venue: "arxiv preprint"
+venue: "COLM 2025"
 # slidesurl: "https://lit.eecs.umich.edu/Hi-ToM/"
 paperurl: "https://arxiv.org/abs/2501.05414"
 ---

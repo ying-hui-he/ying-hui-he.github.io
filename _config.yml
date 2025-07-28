@@ -8,10 +8,10 @@
 
 # Basic Site Settings
 locale: "en-US"
-title: "Yinghui He's Personal Page"
+title: "Yinghui He's Home Page"
 title_separator: "-"
 name: &name "Yinghui He"
-description: &description "First-year PhD student at Princeton Computer Science"
+description: &description "PhD student at Princeton Computer Science"
 url: https://ying-hui-he.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl: "" # the subpath of your site, e.g. "/blog"
 repository: "ying-hui-he.github.io"
@@ -24,7 +24,7 @@ author:
   avatar: "professional.png"
   name: 'Yinghui "Gracie" He'
   pronouns: # example: "she/her"
-  bio: "First-year PhD student at Princeton Computer Science"
+  bio: "PhD student at Princeton Computer Science"
   location: "Princeton, NJ"
   employer: "Princeton University"
   uri: # URL

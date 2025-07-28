@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I'm Yinghui He (pronounced as _Yee·ng-Hway Huh_), a first-year PhD student at Princeton University Computer Science Department. I work with [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) at [Princeton Language and Intelligence](https://pli.princeton.edu/) (PLI). I'm broadly interested in Natural Language Processing, especially the two-way relation between artificial intelligence and human cognition. Prior to that, I finished my B.S.E in Computer Science at the University of Michigan, where I had the honor to work with [Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/) (at the [LIT Lab](https://lit.eecs.umich.edu/)) and [Wei Hu](https://weihu.me/).
+Hi there! I'm Yinghui He (pronounced as _Yee·ng-Hway Huh_), a second-year PhD student at Princeton University Computer Science Department. I'm honored to be advised by [Sanjeev Arora](https://www.cs.princeton.edu/~arora/) at [Princeton Language and Intelligence](https://pli.princeton.edu/) (PLI). I work in Natural Language Processing, pursuing to develop LLMs and agents to understand the two-way relation between artificial intelligence and human cognition. I finished my Bachelor's degree in Computer Science at the University of Michigan, where I had the honor to work with [Rada Mihalcea](https://web.eecs.umich.edu/~mihalcea/) (at the [LIT Lab](https://lit.eecs.umich.edu/)) and [Wei Hu](https://weihu.me/).
 
 # Publications
 
