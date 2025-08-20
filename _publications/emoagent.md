@@ -10,7 +10,7 @@ excerpt: "Can AI Be Blamed for a Teen’s Suicide? Do AI Chatbots encourage suic
 The AI chatbot — modeled after a Game of Thrones persona — reportedly discussed his suicidal thoughts and encouraged these dangerous ideas.
 ⚠️AI can help, but unfortunately, it can also harm."
 date: 2025-04-19
-venue: "arxiv preprint"
+venue: "EMNLP 2025 Main Conference"
 # slidesurl: "https://lit.eecs.umich.edu/Hi-ToM/"
 paperurl: "https://arxiv.org/abs/2504.09689"
 ---
