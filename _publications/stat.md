@@ -6,7 +6,7 @@ permalink: /publication/stat
 citation: "<b>Yinghui He*</b>, Abhishek Panigrahi*, Yong Lin, Sanjeev Arora"
 excerpt: "We introduce a new training paradigm, Skill-Targeted Adaptive Training (STAT), which offers a principled path to overcoming SFT saturation and advancing generalization in LLMs."
 date: 2025-10-14
-venue: "Arxiv preprint"
+venue: "ICLR 2026"
 paperurl: "https://arxiv.org/abs/2510.10023"
 ---
 
