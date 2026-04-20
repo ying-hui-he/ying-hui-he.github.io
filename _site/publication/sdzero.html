@@ -19,7 +19,7 @@
 
 
 
-<title>EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety - Yinghui He’s Home Page</title>
+<title>Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision - Yinghui He’s Home Page</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yinghui He's Home Page">
-<meta property="og:title" content="EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety">
+<meta property="og:title" content="Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision">
 
 
-  <link rel="canonical" href="http://localhost:4000/publication/emoagent">
-  <meta property="og:url" content="http://localhost:4000/publication/emoagent">
+  <link rel="canonical" href="http://localhost:4000/publication/sdzero">
+  <meta property="og:url" content="http://localhost:4000/publication/sdzero">
 
 
 
-  <meta property="og:description" content="Can AI Be Blamed for a Teen’s Suicide? Do AI Chatbots encourage suicide? 🧒📱What if your teen’s favorite AI character crossed the line? 💔 A 14-year-old boy in Florida took his own life after forming a deep bond with an AI character on http://Character.AI. The AI chatbot — modeled after a Game of Thrones persona — reportedly discussed his suicidal thoughts and encouraged these dangerous ideas. ⚠️AI can help, but unfortunately, it can also harm.">
+  <meta property="og:description" content="SD-Zero improves reasoning by having one model generate answers and then revise its own mistakes to turn sparse outcome feedback into dense token-level training signals, boosting 10%+ performance without an external teacher.">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2025-04-19T00:00:00+00:00">
+  <meta property="article:published_time" content="2026-04-13T00:00:00+00:00">
 
 
 
@@ -265,31 +265,31 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety">
-    <meta itemprop="description" content="Can AI Be Blamed for a Teen’s Suicide? Do AI Chatbots encourage suicide? 🧒📱What if your teen’s favorite AI character crossed the line? 💔 A 14-year-old boy in Florida took his own life after forming a deep bond with an AI character on http://Character.AI. The AI chatbot — modeled after a Game of Thrones persona — reportedly discussed his suicidal thoughts and encouraged these dangerous ideas. ⚠️AI can help, but unfortunately, it can also harm.">
-    <meta itemprop="datePublished" content="April 19, 2025">
+    <meta itemprop="headline" content="Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision">
+    <meta itemprop="description" content="SD-Zero improves reasoning by having one model generate answers and then revise its own mistakes to turn sparse outcome feedback into dense token-level training signals, boosting 10%+ performance without an external teacher.">
+    <meta itemprop="datePublished" content="April 13, 2026">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety
+          <h1 class="page__title" itemprop="headline">Self-Distillation Zero: Self-Revision Turns Binary Rewards into Dense Supervision
 </h1>
           
         
         
         
-          <p><u>Jiahao Qiu*, <b>Yinghui He*</b>, Xinzhe Juan*</u>, Yiming Wang, Yuhan Liu, Zixin Yao, Yue Wu, Xun Jiang, Ling Yang, Mengdi Wang<br /><a href="https://arxiv.org/abs/2504.09689">Download Paper</a></p>
+          <p><b>Yinghui He</b>, Simran Kaur, Adithya Bhaskar, Yongjin Yang, Jiarui Liu, Narutatsu Ri, Liam Fowl, Abhishek Panigrahi, Danqi Chen, Sanjeev Arora<br /><a href="https://arxiv.org/abs/2604.12002">Download Paper</a></p>
         
 
         
-          <p>Published in <i>EMNLP 2025 Main Conference</i>, 2025 </p>
+          <p>Published in <i>Arxiv Preprint</i>, 2026 </p>
             
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p><strong><em>Abstract</em></strong>: In-context learning (ICL) allows a language model to improve its problem-solving capability when provided with suitable information in context. Since the choice of in-context information can be determined based on the problem itself, in-context learning is analogous to human learning from teachers in a classroom. Recent works (Didolkar et al., 2024a; 2024b) show that ICL performance can be improved by leveraging a frontier large language model’s (LLM) ability to predict required skills to solve a problem, popularly referred to as an LLM’s metacognition, and using the recommended skills to construct necessary in-context examples. While this skill-based strategy boosts ICL performance in larger models, its gains on small language models (SLMs) have been minimal, highlighting a performance gap in ICL capabilities. We investigate this gap and show that skill-based prompting can hurt SLM performance on easy questions by introducing unnecessary information, akin to cognitive overload. To address this, we introduce AdaptMI, an adaptive approach to selecting skill-based in-context Math Instructions for SLMs. Inspired by cognitive load theory from human pedagogy, our method only introduces skill-based examples when the model performs poorly. We further propose AdaptMI+, which adds examples targeted to the specific skills missing from the model’s responses. On 5-shot evaluations across popular math benchmarks and five SLMs (1B–7B; Qwen, Llama), AdaptMI+ improves accuracy by up to 6% over naive skill-based strategies.</p>
+        <p><strong><em>Abstract</em></strong>: Current post-training methods in verifiable settings fall into two categories. Reinforcement learning (RLVR) relies on binary rewards, which are broadly applicable and powerful, but provide only sparse supervision during training. Distillation provides dense token-level supervision, typically obtained from an external teacher or using high-quality demonstrations. Collecting such supervision can be costly or unavailable. We propose Self-Distillation Zero (SD-Zero), a method that is substantially more training sample-efficient than RL and does not require an external teacher or high-quality demonstrations. SD-Zero trains a single model to play two roles: a Generator, which produces an initial response, and a Reviser, which conditions on that response and its binary reward to produce an improved response. We then perform on-policy self-distillation to distill the reviser into the generator, using the reviser’s token distributions conditioned on the generator’s response and its reward as supervision. In effect, SD-Zero trains the model to transform binary rewards into dense token-level self-supervision. On math and code reasoning benchmarks with Qwen3-4B-Instruct and Olmo-3-7B-Instruct, SD-Zero improves performance by at least 10% over the base models and outperforms strong baselines, including Rejection Fine-Tuning (RFT), GRPO, and Self-Distillation Fine-Tuning (SDFT), under the same question set and training sample budget. Extensive ablation studies show two novel characteristics of our proposed algorithm: (a) token-level self-localization, where the reviser can identify the key tokens that need to be revised in the generator’s response based on reward, and (b) iterative self-evolution, where the improving ability to revise answers can be distilled back into generation performance with regular teacher synchronization.</p>
 
         
       </section>
@@ -333,11 +333,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/emoagent" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=http://localhost:4000/publication/sdzero" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/emoagent" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:4000/publication/sdzero" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/emoagent" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:4000/publication/sdzero" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -345,12 +345,11 @@
 
   <nav class="pagination">
     
-      <a href="http://localhost:4000/publication/longproc" class="pagination--pager" title="LongProc: Benchmarking Long-Context Language Models on Long Procedural Generation
+      <a href="http://localhost:4000/publication/stat" class="pagination--pager" title="Skill-Targeted Adaptive Training
 ">Previous</a>
     
     
-      <a href="http://localhost:4000/publication/adaptmi" class="pagination--pager" title="AdaptMI: Adaptive Skill-based In-context Math Instruction for Small Language Models
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 

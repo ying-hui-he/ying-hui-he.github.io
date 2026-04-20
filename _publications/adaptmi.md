@@ -7,7 +7,7 @@ citation: "<b>Yinghui He</b>, Abhishek Panigrahi, Yong Lin, Sanjeev Arora"
 excerpt: "Kids improve when a good teacher offers adaptive, targeted feedback. Can a small LLM benefit if a large LLM provide helpful feedback, in-context?? Naive ideas fail here.
 We propose AdaptMI: adaptive, skill-based in-context supervision that boosts 1B models by 6% on challenging math tasks."
 date: 2025-04-30
-venue: "COLM 2025; ICML 2025 Workshop on Test-Time Adaptation; ICML 2025 Methods and Opportunities at Small Scale Workshop"
+venue: "COLM 2025"
 # slidesurl: "https://lit.eecs.umich.edu/Hi-ToM/"
 paperurl: "https://arxiv.org/abs/2505.00147"
 
