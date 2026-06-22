@@ -6,7 +6,7 @@ permalink: /publication/sdzero
 citation: "<b>Yinghui He</b>, Simran Kaur, Adithya Bhaskar, Yongjin Yang, Jiarui Liu, Narutatsu Ri, Liam Fowl, Abhishek Panigrahi, Danqi Chen, Sanjeev Arora"
 excerpt: "SD-Zero improves reasoning by having one model generate answers and then revise its own mistakes to turn sparse outcome feedback into dense token-level training signals, boosting 10%+ performance without an external teacher."
 date: 2026-04-13
-venue: "Arxiv Preprint"
+venue: 'ICML AI4Math Workshop <b style="color:red;">(Honorable Mention)</b>; ICML RLxF Workshop <b style="color:red;">(Oral)</b>'
 paperurl: "https://arxiv.org/abs/2604.12002"
 ---
 
