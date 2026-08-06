@@ -1,6 +1,6 @@
 :root {
-	--accent: #2563eb;
-	--accent-light: #dbeafe;
+	--accent: #5FA4C7;
+	--accent-light: #DAF0F2;
 	--text-primary: #1e293b;
 	--text-secondary: #64748b;
 	--text-muted: #94a3b8;
@@ -258,7 +258,7 @@ body {
 	width: 100%;
 	min-height: 140px;
 	border-radius: 8px;
-	background: linear-gradient(135deg, #e0e7ff 0%, #dbeafe 100%);
+	background: linear-gradient(135deg, #CFEBEF 0%, #DAF0F2 100%);
 	color: var(--accent);
 	display: flex;
 	align-items: center;
